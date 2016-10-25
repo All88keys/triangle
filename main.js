@@ -6,7 +6,7 @@ function toHTML(text) {
 }
 
 function findRow(){
-  var row = document.getElementById('value').value-1;
+  var row = 800; //document.getElementById('value').value-1;
   document.getElementById('box').innerHTML = "";
   lastLine = [1];
   for (var t = 0; t <= row; t++) {
