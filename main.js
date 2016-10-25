@@ -5,7 +5,7 @@ function toHTML(text) {
     document.getElementById("box").appendChild(p)
 }
 
-function findRow(){
+//function findRow(){
   var row = 800; //document.getElementById('value').value-1;
   document.getElementById('box').innerHTML = "";
   lastLine = [1];
@@ -23,4 +23,4 @@ function findRow(){
       lastLine = line;
   }
   return line;
-}
+//}
